@@ -45,6 +45,9 @@ img {
   width: 100%;
   height: auto;
 }
+.section {
+  padding: 94px 0;
+}
 /* header */
 .header {
   border-bottom: 1px solid var(--border-head-cl);
@@ -125,6 +128,7 @@ img {
   text-align: center;
   font-weight: 900;
   font-size: 44px;
+  width: 696px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -162,8 +166,7 @@ img {
 }
 
 .features-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 .features-title {
   font-weight: 700;
