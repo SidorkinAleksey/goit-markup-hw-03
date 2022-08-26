@@ -176,6 +176,12 @@ img {
   margin-bottom: 10px;
 }
 /* SECTION-TITLE */
+.section-team {
+  background-color: #f5f4fa;
+  margin-bottom: 50px;
+  margin-top: 94px;
+  background-size: cover;
+}
 
 .section-title {
   margin-top: 0;
@@ -195,13 +201,6 @@ img {
   margin-top: 0;
 }
 /* SECTION-TEAM */
-
-.section-team {
-  background-color: #f5f4fa;
-  margin-bottom: 50px;
-  margin-top: 94px;
-  background-size: cover;
-}
 
 .team {
   display: flex;
