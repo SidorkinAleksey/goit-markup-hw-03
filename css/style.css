@@ -92,8 +92,7 @@ body {
 }
 
 /* HERO */
-.hero-container {
-}
+
 .hero {
   background-color: #2f303a;
   border-top: 2px solid red;
@@ -138,6 +137,7 @@ body {
 .features {
   display: flex;
   gap: 30px;
+  margin-top: 0;
 }
 
 .features-section {
@@ -157,6 +157,7 @@ body {
 /* SECTION-TITLE */
 
 .section-title {
+  margin-top: 0;
   margin-bottom: 50px;
   color: var(--secondary-text-color);
   text-align: center;
@@ -166,16 +167,26 @@ body {
   gap: 30px;
   justify-content: center;
   margin-top: 0;
+  margin-bottom: 0;
 }
 .features-text {
   margin-bottom: 10px;
   margin-top: 0;
 }
 /* SECTION-TEAM */
+
 .section-team {
   background-color: #f5f4fa;
   margin-bottom: 50px;
   margin-top: 94px;
+  background-size: cover;
+}
+.team {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+  margin-top: 0;
+  padding-right: 0;
 }
 
 .team-tile {
@@ -192,6 +203,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* FOOTER */
 
 .footer {
   background-color: #2f303a;
