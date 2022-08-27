@@ -95,7 +95,7 @@ img {
   color: var(--accent-color);
 } */
 
-.site-nav-link .current {
+.site-nav-link {
   padding: 32px;
   color: var(--secondary-text-color);
   font-weight: 500;
