@@ -91,16 +91,19 @@ img {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
-.current {
+/* .current {
   color: var(--accent-color);
-}
+} */
 
-.site-nav-link {
+.site-nav-link .current {
   padding: 32px;
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.site-nav-link.current {
+  color: var(--accent-color);
 }
 
 /* AUTH_NAV */
