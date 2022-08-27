@@ -3,7 +3,6 @@
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
   --white-text-color: #fff;
-
   --border-card-cl: #ececec;
 }
 body {
@@ -13,9 +12,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.list {
-  list-style: none;
-}
+
 .link {
   text-decoration: none;
 }
