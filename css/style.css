@@ -85,7 +85,6 @@ img {
 
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
