@@ -3,7 +3,8 @@
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
   --white-text-color: #fff;
-  --border-head-cl: ;
+
+  --border-card-cl: #ececec;
 }
 body {
   color: var(--main-text-color);
@@ -53,6 +54,9 @@ img {
 /* header */
 .header {
   border-bottom: 1px solid #ececec;
+}
+.active {
+  color: var(--accent-color);
 }
 
 .main-nav {
@@ -142,7 +146,7 @@ img {
   margin-right: auto;
 }
 
-.button {
+button {
   cursor: pointer;
 }
 
@@ -301,11 +305,11 @@ img {
   color: var(--secondary-text-color);
   margin-bottom: 4px;
 }
-.web-text {
-  font-size: 16px;
-  line-height: 1.9;
-}
 .web-box {
   border: 1px solid #ececec;
   padding: 20px 24px;
+}
+.web-text {
+  font-size: 16px;
+  line-height: 1.9;
 }
