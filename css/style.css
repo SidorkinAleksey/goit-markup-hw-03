@@ -143,6 +143,10 @@ img {
 }
 
 .button {
+  cursor: pointer;
+}
+
+.button {
   display: inline-block;
   background-color: var(--accent-color);
   color: var(--white-text-color);
@@ -275,7 +279,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
   border: 0px;
-  padding: 6px 25px;
+  padding: 6px 22px;
 }
 .button-list:hover,
 .button-list:focus {
@@ -300,4 +304,8 @@ img {
 .web-text {
   font-size: 16px;
   line-height: 1.9;
+}
+.web-box {
+  border: 1px solid #ececec;
+  padding: 20px 24px;
 }
