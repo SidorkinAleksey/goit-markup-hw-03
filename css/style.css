@@ -91,12 +91,16 @@ img {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
-/* .current {
-  color: var(--accent-color);
-} */
+.site-nav-item {
+  margin-right: 50px;
+}
+.site-nav-item:last-child {
+  margin-right: 0;
+}
 
 .site-nav-link {
-  padding: 32px;
+  padding: 32px 0;
+
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -171,6 +175,26 @@ button {
 }
 
 /*CONTAINER  SECTION */
+.header-features {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .features {
   display: flex;
   gap: 30px;
@@ -194,12 +218,19 @@ button {
   margin-top: 94px;
   background-size: cover;
 }
-
+.works-section {
+  padding: 0;
+}
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--secondary-text-color);
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
 }
 .works {
   display: flex;
@@ -208,18 +239,12 @@ button {
   margin-top: 0;
   margin-bottom: 0;
 }
-.features-text {
-  margin-bottom: 10px;
-  margin-top: 0;
-}
+
 /* SECTION-TEAM */
 
 .team {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
-  margin-top: 0;
-  padding-right: 0;
 }
 .team-box {
   background-color: #fff;
@@ -251,6 +276,8 @@ button {
 .footer .logo {
   display: inline-block;
   color: var(--accent-color);
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 .address {
@@ -258,6 +285,13 @@ button {
 }
 .footer-contacts-link {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-item {
+  margin-bottom: 9px;
+}
+
+.footer-contacts-item:last-child {
+  margin-bottom: 0;
 }
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
@@ -269,6 +303,18 @@ button {
 }
 
 /* Portfolio main list*/
+.our-projects {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .project-item {
   display: flex;
@@ -309,7 +355,9 @@ button {
   margin-bottom: 4px;
 }
 .web-box {
-  border: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-right: 1px solid #ececec;
   padding: 20px 24px;
 }
 .web-text {
